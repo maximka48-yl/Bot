@@ -73,9 +73,9 @@ TRANAPI = 'trnsl.1.1.20200426T203403Z.e2882e1d8f28daaa.bb59eda4ee47959c0c49e8ee3
 # Главная функция
 def main():
     vk_session = vk_api.VkApi(
-        token='b0509e54657471c56c239686f09a8322a37846b19769e902e69bf1136cc2f9c254a26499001c3e15f3dca')
+        token='TOKEN')
 
-    longpoll = VkBotLongPoll(vk_session, 194502422)
+    longpoll = VkBotLongPoll(vk_session, 123123123)
     # Списки и словари для хранения id пользователей, чтобы знать, кто из них сейчас в какой функции
     translator_mode = []
     city_game = []
