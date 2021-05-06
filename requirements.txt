@@ -1,6 +1,6 @@
 apiai==1.2.3
 Flask==1.0.2
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 Flask-WTF==0.14.3
 geocoder==1.38.1
 google-api-core==1.17.0
